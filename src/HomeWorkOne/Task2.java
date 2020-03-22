@@ -2,25 +2,25 @@ package HomeWorkOne;
 
 public class Task2 {
     public static void main(String[] args) {
-        int x = 15;
-        int y = 25;
-        int z = 5;
+        int a = 15;
+        int b = 25;
+        int c = 5;
 
-            if (x < y && x < z) {
-                if (y < z)
-                    System.out.println("Последовательность: " + x + ", " + y + ", " + z);
+            if (a < b && a < c) {
+                if (b < c)
+                    System.out.println("Последовательность: " + a + ", " + b + ", " + c);
                 else
-                    System.out.println("Последовательность: " + x + ", " + z + ", " + y);
-            } else if (y < x && y < z) {
-                if (x < z)
-                    System.out.println("Последовательность: " + y + ", " + x + ", " + z);
+                    System.out.println("Последовательность: " + a + ", " + c + ", " + b);
+            } else if (b < a && b < c) {
+                if (a < c)
+                    System.out.println("Последовательность: " + b + ", " + a + ", " + c);
                 else
-                    System.out.println("Последовательность: " + y + ", " + z + ", " + x);
+                    System.out.println("Последовательность: " + b + ", " + c + ", " + a);
             } else {
-                if (x < y)
-                    System.out.println("Последовательность: " + z + ", " + x + ", " + y);
+                if (a < b)
+                    System.out.println("Последовательность: " + c + ", " + a + ", " + b);
                 else
-                    System.out.println("Последовательность: " + z + ", " + y + ", " + x);
+                    System.out.println("Последовательность: " + c + ", " + b + ", " + a);
             }
     }
 }
