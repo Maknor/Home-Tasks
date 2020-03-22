@@ -1,13 +1,19 @@
 public class Test {
-    public static void main(String[] args) {
-        int money = 16;
-        int x = money % 100;
-        int y = money % 10;
-        if (x == 1 || y == 1)
-            System.out.println(money + " рубль");
-        if (5 > x && x > 1 || y > 1 && y < 5)
-            System.out.println(money + " рубля");
-        if (20 > x && x > 10 || y > 5 && y < 10)
-            System.out.println(money + " рублей");
+    public static void main(String args[]) {
+        int month = 4; // April
+        String season;
+
+        if (month == 12 || month == 1 || month == 2) {
+            season = "Winter";
+        } else if (month == 3 || month == 4 || month == 5)
+            season = "Spring";
+        else if (month == 6 || month == 7 || month == 8)
+            season = "Summer";
+        else if (month == 9 || month == 10 || month == 11)
+            season = "Autumn";
+        else
+            season = "Bogus Month";
+
+        System.out.println("April is in the " + season + ".");
     }
 }
