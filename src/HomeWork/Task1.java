@@ -1,4 +1,6 @@
-public class Test {
+package HomeWork;
+
+public class Task1 {
     public static void main(String args[]) {
         int month = 4; // April
         String season;
