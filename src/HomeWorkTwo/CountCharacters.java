@@ -19,7 +19,7 @@ public class CountCharacters {
         String SymbolForSearch;
         boolean condition = true;
         do {
-            System.out.println("Введите символ, который необходимо найти:");
+            System.out.println("Введите символ, который необходимо найти");
             SymbolForSearch = scanner.nextLine();
             if (SymbolForSearch.length() != 1) {
                 System.out.println("Количество символов введено неверно! Пожалуйста, введите только один символ.");
