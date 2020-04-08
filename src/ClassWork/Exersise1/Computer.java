@@ -1,4 +1,4 @@
-package Exersise1;
+package ClassWork.Exersise1;
 
 
 import java.util.Scanner;

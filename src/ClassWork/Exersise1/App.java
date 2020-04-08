@@ -1,4 +1,4 @@
-package Exersise1;
+package ClassWork.Exersise1;
 
 public class App {
     public static void main(String[] args) {
