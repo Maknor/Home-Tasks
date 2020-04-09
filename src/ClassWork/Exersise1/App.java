@@ -8,7 +8,6 @@ public class App {
 
         usb.putInInterfaceDrive();
         if (computer.isUsbDriveExist){
-            System.out.println("Введите текст!");
             computer.writeToUsbDrive(drive);
             computer.printFromUsbDrive(drive);
         } else {
