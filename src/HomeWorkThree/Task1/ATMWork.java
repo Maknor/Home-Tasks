@@ -34,7 +34,7 @@ public class ATMWork {
 
     private static int menu() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Выберите пункт меню1:");
+        System.out.println("Выберите пункт меню:");
         System.out.println("1. Пополнить банкомат купюрами.");
         System.out.println("2. Снять деньги со счета.");
         System.out.println("3. Посмотреть сколько купюр осталось в банкомате.");
