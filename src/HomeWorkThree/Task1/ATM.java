@@ -27,7 +27,7 @@ public class ATM {
         countsBillTwenty = scan.nextInt();
         System.out.println("Купюры номиналом 50:");
         countsBillFifty = scan.nextInt();
-        System.out.println("Купюры номиналом 1000:");
+        System.out.println("Купюры номиналом 100:");
         countsBillOneHundred = scan.nextInt();
         addMoney(countsBillTwenty, countsBillFifty, countsBillOneHundred);
     }
