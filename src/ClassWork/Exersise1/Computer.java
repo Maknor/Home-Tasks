@@ -19,7 +19,7 @@ public class Computer {
         if (flash != null) {
             switch (flash.getType()) {
                 case MOVIE: {
-                    System.out.println("Воспроизводится фильм  " + flash.getData());
+                    System.out.println("Воспроизводится фильм " + flash.getData());
                     break;
                 }
                 case AUDIO: {

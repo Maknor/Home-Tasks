@@ -7,12 +7,15 @@ public class UsbDrive {
     public void setData(String data) {
         this.data = data;
     }
+
     public void setType(DataType type) {
         this.type = type;
     }
+
     public String getData() {
         return data;
     }
+
     public DataType getType() {
         return type;
     }

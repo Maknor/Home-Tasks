@@ -11,7 +11,7 @@ public class App {
             computer.writeToUsbDrive(drive);
             computer.printFromUsbDrive(drive);
         } else {
-            System.out.println("флешки нет!");
+            System.out.println("флешки нет!!");
         }
     }
 }
