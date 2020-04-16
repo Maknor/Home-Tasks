@@ -10,8 +10,8 @@ public class Computer {
     void writeToUsbDrive(UsbDrive flash) {
         if (flash != null) {
             flash.setType(DataType.valueOf(
-                    getDataFromKeyboar("Введите тип данных: ").toUpperCase()));
-            flash.setData(getDataFromKeyboar("Введите данные: "));
+                    getDataFromKeyboard("Введите тип данных: ").toUpperCase()));
+            flash.setData(getDataFromKeyboard("Введите данные: "));
         }
     }
 
@@ -34,7 +34,7 @@ public class Computer {
         }
     }
 
-    public String getDataFromKeyboar(String message) {
+    public String getDataFromKeyboard(String message) {
         System.out.print(message);
         Scanner scanner = new Scanner(System.in);
         return scanner.nextLine();
