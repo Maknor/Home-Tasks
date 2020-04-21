@@ -1,5 +1,5 @@
 package ClassWork.Week5;
-
+//Давайте измерим, сколько времени занимает 10 тысяч вставок для списков LinkedList и ArrayList.
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Random;

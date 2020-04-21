@@ -1,5 +1,5 @@
 package ClassWork.Week5;
-
+//пример 1 из папки set
 import java.util.HashSet;
 import java.util.Set;
 

@@ -1,5 +1,5 @@
 package ClassWork.Week5;
-
+//Создать Map с десятью строками. Ваша задача — вывести на экран список ключей, печатая каждый элемент с новой строки.
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;

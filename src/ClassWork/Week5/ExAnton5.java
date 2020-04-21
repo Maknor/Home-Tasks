@@ -1,5 +1,5 @@
 package ClassWork.Week5;
-
+//Создать словарь типа «фамилия»-«зарплата» и удалить из него тех, у кого зарплата ниже 500 кредитов.
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;

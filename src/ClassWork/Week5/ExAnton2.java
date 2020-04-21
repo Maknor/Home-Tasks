@@ -1,5 +1,5 @@
 package ClassWork.Week5;
-
+//пример 2 из папки set
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Scanner;

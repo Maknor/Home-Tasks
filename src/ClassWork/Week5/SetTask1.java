@@ -1,5 +1,5 @@
 package ClassWork.Week5;
-
+//Создадим множество чисел(Set), занесем туда 20 различных чисел, а затем удалить из множества все числа больше 10.
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Random;
